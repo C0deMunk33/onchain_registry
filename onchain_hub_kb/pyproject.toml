@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "onchain-hub-kb"
+version = "0.1.0"
+description = ""
+authors = ["Sacrificial Pancakes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
+python-dotenv = "^1.0.1"
+web3 = "^7.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

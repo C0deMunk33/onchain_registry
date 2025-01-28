@@ -1,0 +1,34 @@
+{
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.18"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^16.0.1",
+    "@chainsafe/libp2p-yamux": "^7.0.1",
+    "@helia/http": "^2.0.3",
+    "@helia/unixfs": "^4.0.2",
+    "@libp2p/bootstrap": "^11.0.17",
+    "@libp2p/identify": "^3.0.15",
+    "@libp2p/mplex": "^11.0.17",
+    "@libp2p/peer-id-factory": "^4.2.4",
+    "@libp2p/plaintext": "^2.0.13",
+    "@libp2p/tcp": "^10.0.15",
+    "@libp2p/websockets": "^9.1.2",
+    "helia": "^5.2.0",
+    "libp2p": "^2.5.0"
+  },
+  "name": "onchain_registry",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
