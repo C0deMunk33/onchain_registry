@@ -1,6 +1,8 @@
 node_modules
 .env
 
+/deployed-contract.json
+
 # Hardhat files
 /cache
 /artifacts
